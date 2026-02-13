@@ -9,6 +9,7 @@ describe('Login', () => {
     cy.get('#username').click().type('julio.lima')
     cy.get('#senha').click().type('123456')
     cy.contains('button', 'Entrar').click()
+    
 
     // Assert
     cy.contains('h4', 'Realizar Transferência').should('be.visible')
