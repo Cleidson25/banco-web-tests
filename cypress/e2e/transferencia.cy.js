@@ -4,7 +4,7 @@ describe('transferencia', () => {
         cy.fazerLoginComCredenciaisValidas()
     })
 
-    it('Deve transferir quando informo dadcvos e valores validos', () => {
+    it('Deve transferir quando informo dados e valores validos', () => {
         //Act
         cy.realizarTransferencia('Priscila', 'julio', '11')
         
